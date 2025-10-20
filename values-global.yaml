@@ -1,0 +1,9 @@
+global:
+    pattern: multitenant-cluster
+    secretLoader:
+        disabled: true
+main:
+    clusterGroupName: basic
+    multiSourceConfig:
+        enabled: true
+        clusterGroupChartVersion: 0.9.*
